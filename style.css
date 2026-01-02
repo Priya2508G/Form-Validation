@@ -1,0 +1,28 @@
+body {
+    background: linear-gradient(to right, #4facfe, #00f2fe);
+    min-height: 100vh;
+}
+
+/* Card styling */
+.card {
+    max-width: 500px;
+    margin: auto;
+    border-radius: 15px;
+}
+
+/* Error message styling */
+.error {
+    color: red;
+    font-size: 0.85rem;
+}
+
+/* Show/Hide password button */
+.toggle-password {
+    position: absolute;
+    right: 15px;
+    top: 38px;
+    cursor: pointer;
+    font-size: 0.9rem;
+    color: #007bff;
+    user-select: none;
+}
